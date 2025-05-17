@@ -20,7 +20,7 @@ const Download: React.FC = () => (
             Download our app
           </h2>
           <p className="text-xl text-gray-800 dark:text-gray-300 mb-6 font-light">
-            Download the state of the art app and start saving time and money. More to come.
+            We will launching our App soon
           </p>
           <div className="flex space-x-4">
             <Link

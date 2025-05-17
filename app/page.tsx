@@ -20,29 +20,50 @@ export default function Page() {
           leftHalf={
             <>
               <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-gray-900 dark:text-white mb-4">
-                Effortlessly highlight the key features of your app
+                Johan Iskandar
               </h2>
               <p className="text-xl font-light">
-                Our app makes it easy to showcase your key features. With customizable sections, you can highlight the
-                most important aspects of your product. More to come.
-              </p>
+               Welcome to House of Thoughts, where ideas spark innovation, and insights drive change. We are a platform dedicated to exploring diverse perspectives in finance, politics, education, and beyond, fostering a space for meaningful conversations and impactful solutions.  </p>
             </>
           }
           rightHalf={
-            <Image src={"/products/phone.png"} alt="section-image" width={500} height={100} className="w-1/2 h-auto" />
+            <Image src={"/products/cofounder1.png"} alt="section-image" width={500} height={100} className="w-1/2 h-auto" />
           }
+          
+          
         />
+        <Section
+  leftHalf={
+    <>
+      <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-gray-900 dark:text-white mb-4">
+        Amzar Johari
+      </h2>
+      <p className="text-xl font-light">
+        At House of Thoughts, we believe in the transformative power of knowledge and its ability to shape a better tomorrow. Our mission is to inform, inspire, and empower individuals and organizations through in-depth research, thought-provoking analysis, and pragmatic solutions to today’s challenges.
+      </p>
+    </>
+  }
+  rightHalf={
+    <Image
+      src={"/products/cofounder2.png"}
+      alt="Amzar Johari"
+      width={500}
+      height={100}
+      className="w-1/2 h-auto"
+    />
+  }
+/>
+
         <Customers />
         <Section
           leftHalf={<Accordion />}
           rightHalf={
             <div className="flex flex-col justify-end">
               <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-gray-900 dark:text-white mb-4">
-                Highlight the key features
+                Why Readers Trust Us
               </h2>
               <p className="text-xl font-light">
-                Talk about some of the key features of your app that you want to highlight. Use the beautiful accordion
-                to highlight the key features of your app.
+                Discover insightful articles across politics, education, economy, and more—designed to keep you informed, inspired, and ahead of the curve.
               </p>
             </div>
           }

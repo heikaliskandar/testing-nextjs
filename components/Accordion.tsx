@@ -41,17 +41,17 @@ const AccordionItem: React.FC<AccordionItemProps> = ({ title, content, isOpen, t
 const defaultAccordionItems = [
   {
     title: "Sign up for free",
-    content: "Start your journey with a 34-day trial. It's easy no credit card or commitment.",
+    content: "Access all articles and features with zero cost. No sign-ups, no paywalls — just open knowledge for all.",
   },
   {
     title: "Easy to use",
     content:
-      "Our app is designed to be user-friendly and easy to use. We want to provide a seamless experience for your users so that you can focus on what matters.",
+      "Designed with readers in mind — clean layout, dark mode, and seamless navigation for an uninterrupted reading experience.",
   },
   {
     title: "Focus on what matters",
     content:
-      "With better financial management, you can reduce money-related stress and focus on what matters most. More to come.",
+      "Skip the clutter and dive straight into thoughtful insights that matter most — from education to economy, politics, and beyond.",
   },
 ];
 

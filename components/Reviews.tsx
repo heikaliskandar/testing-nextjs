@@ -15,35 +15,35 @@ interface ReviewsProps {
 const defaultReviews: ReviewData[] = [
   {
     rating: 5,
-    title: "Best app ever!",
+    title: "One of the best article website in Malaysia!",
     content:
-      "This app has been a game-changer for me! It's made tracking my daily activities so much easier. I love how intuitive and user-friendly it is.",
-    author: "Jonas Aly",
-    designation: "Founder @ Company",
-  },
-  {
-    rating: 5,
-    title: "Super helpful to stay organized",
-    content:
-      "I can't thank this app enough for helping me stay on top of my tasks. The reminders have saved me from missing important deadlines, and I'm much more organized now.",
-    author: "Mark Bures",
-    designation: "Businessman",
-  },
-  {
-    rating: 5,
-    title: "Great app that saves time",
-    content:
-      "The app's integration with my other tools is seamless. I can easily check my progress and activities without having to switch between multiple platforms.",
-    author: "William Kolas",
+      "Every article I read here offers a fresh, well-researched take on current issues. It’s refreshing to find a platform that prioritizes substance over clicks.",
+    author: "Danial Azmi",
     designation: "Student",
   },
   {
-    rating: 4,
-    title: "Seriously life changing app!",
+    rating: 5,
+    title: "Perfect for staying informed without the noise",
     content:
-      "The insights and reports have been eye-opening. I now have a better understanding of my habits and can make adjustments to improve my productivity.",
-    author: "Andrew Chan",
-    designation: "Manager @ AB Company",
+      "The topics are concise, insightful, and relevant. I love how this site makes complex issues easier to understand, especially around politics and education.",
+    author: "Syahir Khalid",
+    designation: "Policy Analyst",
+  },
+  {
+    rating: 5,
+    title: "Strong content, elegant design",
+    content:
+      "I keep coming back not just for the articles, but for the clean layout and dark mode too! Would love to see more local economic insights though.",
+    author: "Farah Nabila",
+    designation: "Economics Undergraduate",
+  },
+  {
+    rating: 4,
+    title: "A serious platform for critical minds",
+    content:
+      "House of Thoughts is not your average blog. It's where meaningful discussions happen, written in a voice that respects intelligence and diversity.",
+    author: "Harith Zulkeffli",
+    designation: "Lecturer",
   },
 ];
 
