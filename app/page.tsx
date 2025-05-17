@@ -16,6 +16,8 @@ export default function Page() {
       <main>
         <Hero />
         <Features />
+
+        {/* Johan Iskandar Section */}
         <Section
           leftHalf={
             <>
@@ -23,38 +25,52 @@ export default function Page() {
                 Johan Iskandar
               </h2>
               <p className="text-xl font-light">
-               Welcome to House of Thoughts, where ideas spark innovation, and insights drive change. We are a platform dedicated to exploring diverse perspectives in finance, politics, education, and beyond, fostering a space for meaningful conversations and impactful solutions.  </p>
+                Welcome to House of Thoughts, where ideas spark innovation, and insights drive change. We are a platform dedicated to exploring diverse perspectives in finance, politics, education, and beyond, fostering a space for meaningful conversations and impactful solutions.
+              </p>
             </>
           }
           rightHalf={
-            <Image src={"/products/cofounder1.png"} alt="section-image" width={500} height={100} className="w-1/2 h-auto" />
+            <div className="relative w-64 h-64">
+              <Image
+                src="/products/cofounder1.png"
+                alt="Johan Iskandar"
+                fill
+                className="object-contain rounded-md"
+                priority
+              />
+            </div>
           }
-          
-          
         />
-        <Section
-  leftHalf={
-    <>
-      <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-gray-900 dark:text-white mb-4">
-        Amzar Johari
-      </h2>
-      <p className="text-xl font-light">
-        At House of Thoughts, we believe in the transformative power of knowledge and its ability to shape a better tomorrow. Our mission is to inform, inspire, and empower individuals and organizations through in-depth research, thought-provoking analysis, and pragmatic solutions to today’s challenges.
-      </p>
-    </>
-  }
-  rightHalf={
-    <Image
-      src={"/products/cofounder2.png"}
-      alt="Amzar Johari"
-      width={500}
-      height={100}
-      className="w-1/2 h-auto"
-    />
-  }
-/>
 
+        {/* Amzar Johari Section */}
+        <Section
+          leftHalf={
+            <>
+              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-gray-900 dark:text-white mb-4">
+                Amzar Johari
+              </h2>
+              <p className="text-xl font-light">
+                At House of Thoughts, we believe in the transformative power of knowledge and its ability to shape a better tomorrow. Our mission is to inform, inspire, and empower individuals and organizations through in-depth research, thought-provoking analysis, and pragmatic solutions to today’s challenges.
+              </p>
+            </>
+          }
+          rightHalf={
+            <div className="relative w-64 h-64">
+              <Image
+                src="/products/cofounder2.png"
+                alt="Amzar Johari"
+                fill
+                className="object-contain rounded-md"
+                priority
+              />
+            </div>
+          }
+        />
+
+        {/* Customers */}
         <Customers />
+
+        {/* Accordion Section */}
         <Section
           leftHalf={<Accordion />}
           rightHalf={
@@ -68,6 +84,7 @@ export default function Page() {
             </div>
           }
         />
+
         <Reviews />
         <Download />
       </main>
